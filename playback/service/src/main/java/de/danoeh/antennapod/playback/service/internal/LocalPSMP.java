@@ -660,7 +660,7 @@ public class LocalPSMP extends PlaybackServiceMediaPlayer {
                             // Still did not get back the audio focus. Now actually pause.
                             pause(true, false);
                         }
-                    }, 30000);
+                    }, 300000);
                 }
             } else if (focusChange == AudioManager.AUDIOFOCUS_GAIN) {
                 Log.d(TAG, "Gained audio focus");
